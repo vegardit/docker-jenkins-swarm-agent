@@ -51,6 +51,7 @@ jobs:
         DOCKER_REGISTRY: docker.io
         DOCKER_REGISTRY_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
         DOCKER_REGISTRY_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
+        JRE_PACKAGE: ${{ matrix.JRE_PACKAGE }}
         MICROBADGER_TOKEN: ${{ secrets.MICROBADGER_TOKEN }}
       run: |
         echo "$DOCKER_REGISTRY_TOKEN" | docker login -u="$DOCKER_REGISTRY_USERNAME" "$DOCKER_REGISTRY" --password-stdin
