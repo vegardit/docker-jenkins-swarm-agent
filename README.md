@@ -15,6 +15,8 @@
 
 Lightweight Docker image based on [alpine:3](https://hub.docker.com/_/alpine?tab=tags&page=1&name=3) to be used in conjunction with the [Jenkins Docker Swarm](https://github.com/jenkinsci/docker-swarm-plugin) and [Docker Pipeline](https://plugins.jenkins.io/docker-workflow/) plugin to realize containerized builds within [Docker Swarm](https://docs.docker.com/engine/swarm/) clusters using a Docker-out-of-Docker (DooD) approach.
 
+![](docs/cloud-config.png)
+
 It is automatically built **daily** to include the latest OS security fixes.
 
 The following packages are preinstalled:
