@@ -4,7 +4,6 @@
 [![License](https://img.shields.io/github/license/vegardit/docker-jenkins-swarm-agent.svg?label=license)](#license)
 [![Docker Pulls](https://img.shields.io/docker/pulls/vegardit/jenkins-swarm-agent.svg)](https://hub.docker.com/r/vegardit/jenkins-swarm-agent)
 [![Docker Stars](https://img.shields.io/docker/stars/vegardit/jenkins-swarm-agent.svg)](https://hub.docker.com/r/vegardit/jenkins-swarm-agent)
-[![Docker Image Size](https://images.microbadger.com/badges/image/vegardit/jenkins-swarm-agent.svg)](https://hub.docker.com/r/vegardit/jenkins-swarm-agent)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 1. [What is it?](#what-is-it)
