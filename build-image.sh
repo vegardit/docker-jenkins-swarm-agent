@@ -41,6 +41,7 @@ DOCKER_BUILDKIT=1 docker build "$project_root" \
    --build-arg GIT_COMMIT_DATE="$(date -d @$(git log -1 --format='%at') --utc +'%Y-%m-%d %H:%M:%S UTC')" \
    --build-arg GIT_COMMIT_HASH="$(git rev-parse --short HEAD)" \
    --build-arg GIT_REPO_URL="$(git config --get remote.origin.url)" \
+   --build-arg JRE_PACKAGE="${jre_package}" \
    -t $image_name \
    "$@"
 
