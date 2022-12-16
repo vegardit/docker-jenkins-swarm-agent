@@ -1,4 +1,4 @@
-# Copyright 2020-2021 by Vegard IT GmbH, Germany, https://vegardit.com
+# SPDX-FileCopyrightText: © Vegard IT GmbH (https://vegardit.com)
 # SPDX-License-Identifier: Apache-2.0
 #
 # Author: Sebastian Thomschke, Vegard IT GmbH
@@ -16,6 +16,8 @@ on:
     - '**'
     paths-ignore:
     - '**/*.md'
+    - '.github/*.yml'
+  pull_request:
   schedule:
     # https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows
     - cron: '0 0 * * *'
